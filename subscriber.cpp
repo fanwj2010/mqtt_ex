@@ -1,3 +1,6 @@
+//mqtt subscriber
+//w.fan@kent.ac.uk
+
 #include <cstdio>
 #include <cstdlib>
 
@@ -8,7 +11,7 @@
 void handler (const char * msg)
 {
     //print out the message received
-    std::cout << " in handler " << msg << std::endl;
+    // std::cout << " in handler " << msg << std::endl;
 }
 
 
